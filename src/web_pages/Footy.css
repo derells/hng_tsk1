@@ -1,0 +1,50 @@
+.social {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.footer-content{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.social{
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+    padding-left: 300px;
+}
+
+.icon{
+    
+    display: flex;
+    display: block;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.footer{
+    display: block;
+   margin-top: 80px;
+}
+
+
+.footer-icon1{
+    height: 50px;
+    width: 150px;
+   padding-left: 40px;
+}
+
+p{
+font-size: 16px;
+padding-left: 10px;
+}
+
+.footer-icon2{
+    height: 70px;
+    width: 150px;
+    padding-left: 80px;
+}
