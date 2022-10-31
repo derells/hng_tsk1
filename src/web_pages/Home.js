@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import "./Home.css";
 import Footy from "./Footy.js";
+import pfp from "../web_pages/images/pfp.png";
 
 class Home extends Component {
   render() {
     return (
       <div className="container">
         <header className="profile">
-          <img className="picture" src="/images/pfp.png" alt="..." />
+          <img className="picture" src={pfp} alt="..." />
           <p id="twitter">Adenrele Adeniji</p>
         </header>
         <div>
