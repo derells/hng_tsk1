@@ -5,7 +5,6 @@ import "./App.css";
 //webpage import
 import Home from "./web_pages/Home";
 import Contact from "./web_pages/Contact";
-// import Footer from "./web_pages/Footer";
 
 class App extends Component {
   render() {
@@ -13,7 +12,7 @@ class App extends Component {
       <Router>
         <div className="body">
           <Routes>
-            <Route path="/hng_task1" element={<Home />} render={<Home />} />
+            <Route path="/" element={<Home />} render={<Home />} />
 
             <Route path="/contact" element={<Contact />} render={<Contact />} />
           </Routes>
