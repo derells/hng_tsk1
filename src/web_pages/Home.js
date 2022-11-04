@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./Home.css";
 import Footy from "./Footy.js";
+import Socials from "./Socials";
 import pfp from "../web_pages/images/pfp.png";
 
 class Home extends Component {
@@ -12,7 +14,7 @@ class Home extends Component {
           <p id="twitter">Adenrele Adeniji</p>
         </header>
         <div>
-          <div className="Link">
+          <div className="links">
             <a
               className="link"
               id="twitter"
@@ -52,9 +54,14 @@ class Home extends Component {
             >
               Free zuri design book
             </a>
+
+            <Link to="/contact" className="link" id="contact">
+              Contact Me
+            </Link>
           </div>
           <script id="slack">{console.log("Derells")}</script>
         </div>
+        <Socials />
         <Footy />
       </div>
     );

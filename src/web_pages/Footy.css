@@ -1,50 +1,24 @@
-.social {
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
-}
-
 .footer-content{
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    display: flex;
-    flex-direction: row;
-    
+    gap: 150px;
+    margin-top: 60px;
+    margin-bottom: -150px;
 }
-.social{
-    padding:10px;
-    display:flex;
-    flex-direction: row;
-    padding-left: 300px;
-}
-
-.icon{
-    
-    display: flex;
-    display: block;
-    height: 50px;
-    width: 50px;
-    
-}
-
-.footer{
-    display: block;
-   margin-top: 80px;
-}
-
 
 .footer-icon1{
-    height: 50px;
-    width: 150px;
-   padding-left: 40px;
+    width: 132px;
+    height: 80px;
 }
 
 p{
 font-size: 16px;
-padding-left: 10px;
+padding-left: 30px;
+font-family: "Inter";
 }
 
 .footer-icon2{
-    height: 70px;
-    width: 150px;
-    padding-left: 80px;
+    width: 132px;
+    height: 32px;
 }

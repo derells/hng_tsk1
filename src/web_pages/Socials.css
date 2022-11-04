@@ -1,0 +1,22 @@
+
+
+.social-content{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100px;
+    height: 24px;
+}
+
+.slkicon{
+    width: 24px;
+    height: 24px;
+}
+
+.giticon{
+    width: 30px;
+    height: 30px;
+}
