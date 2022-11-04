@@ -13,7 +13,7 @@ class App extends Component {
       <Router>
         <div className="body">
           <Routes>
-            <Route path="/" element={<Home />} render={<Home />} />
+            <Route path="/hng_task1" element={<Home />} render={<Home />} />
 
             <Route path="/contact" element={<Contact />} render={<Contact />} />
           </Routes>
